@@ -1,13 +1,7 @@
 <template>
-  <div class="fields">
-    <div>
-      <h3>Date</h3>
-      <input type="text" />
-    </div>
-    <span>
-      <h3>Time</h3>
-      <input type="text" />
-    </span>
+  <div class="dateField">
+      <label>Date</label>
+      <input type="text" value="09/04/2018"/>
   </div>
 </template>
 
@@ -18,9 +12,4 @@ export default {
 </script>
 
 <style scoped>
-.fields {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
 </style>
